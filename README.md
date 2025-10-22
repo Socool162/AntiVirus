@@ -10,4 +10,5 @@ Folder "test" contains 8 files include
 + 2 file some just check only PE disinfect
 
 Note:
++ I test in path "L:\test" and "L:\cleaned_files" so if you want to test, just change your wanted path in my C code.
 + In folder cleaned_files, file cleaned before will be checked to not override (check name)
