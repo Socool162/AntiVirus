@@ -1,0 +1,29 @@
+Initializing Antivirus Engine (C Version)...
+Scanning: L:\test
+Clean files output: L:\cleaned_files
+Log file: scan_report.txt
+
+--- Starting scan of: L:\test ---
+
+Scanning: L:\test\addNumber.dll
+Scanning: L:\test\check_subdir32 - Copy (2).exe
+Scanning: L:\test\check_subdir32 - Copy.exe
+Scanning: L:\test\check_subdir32.exe
+  [INFECTED] File is infected! EntryPoint: 0x12000
+  [INFO] Original OEP restored: 0x102A
+  [CLEANED] Clean file saved to: L:\cleaned_files\check_subdir32.exe
+Scanning: L:\test\pe_loader32.exe
+  [INFECTED] File is infected! EntryPoint: 0x15000
+  [INFO] Original OEP restored: 0x102A
+  [CLEANED] Clean file saved to: L:\cleaned_files\pe_loader32.exe
+Scanning: L:\test\some.exe
+
+--- Scan complete ---
+
+=====================
+   SCAN REPORT
+=====================
+Total files scanned: 6
+Infected files found:  2
+Files cleaned:       2
+=====================
