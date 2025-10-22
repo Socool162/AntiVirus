@@ -1,4 +1,5 @@
-Antivirus Program with c language
+=== Antivirus Program with C language ===
+
 Folder "Bai_4_AntiVirus_Submit" contains main code to AntiVirus and file antiVurus.exe had been compiled before.
 
 Folder "cleaned_files" contains files clean (had been remove section .infect and call OEP exactly).
