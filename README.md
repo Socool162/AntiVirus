@@ -1,16 +1,13 @@
 === Antivirus Program with C language ===
 
-Folder "Bai_4_AntiVirus_Submit" contains main code to AntiVirus and file antiVurus.exe had been compiled before.
+Folder "Bai_4_AntiVirus_Submit" contains main code to AntiVirus and file antiVurus.exe (compiled before)
 
-Folder "cleaned_files" contains files clean (had been remove section .infect and call OEP exactly).
+Folder "cleaned_files" contains 7 files (not .sys) clean I tested before (had been remove section .infect and call OEP exactly)
 
-Folder "test" contains 8 files include 
-+ 3 file infected (addNumber.dll; check_subdir32.exe; pe_loader32.exe) (run file to see MessageBox and check CffExplorer to see section .infect)
-+ 3 file clean (name...- Copy)
-+ 2 file some just check only PE disinfect
+Folder "test" contains 8 files infected (had .infect section) that I injected from fileInfect 
 
 Note:
-+ I test in path "L:\test" and "L:\cleaned_files" so if you want to test, just change your wanted path in my C code.
-+ In folder cleaned_files, file cleaned before will be checked to not override (check name)
++ Download file antiVirus.exe and folder test (8 file infected) to check. You will have exactly 7 file in folder cleaned_files
++ In folder cleaned_files, file cleaned before will be checked to not OVERRIDE (check name)
   
 + GUI will be updated soon....
